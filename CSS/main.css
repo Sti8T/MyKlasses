@@ -1,0 +1,63 @@
+body {
+    display: block;
+    margin: 0px;
+}
+h1{
+    font-family: "Yandex Sans Display";
+    font-style: normal;
+}
+a,p{
+    font-family: "Yandex Sans Text Regular";
+}
+.board{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board-txt{
+    margin-right: 232px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none
+}
+
+.t{
+    margin-top: 70px;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 514px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-img{
+    height: 514px;
+    width: 514px;
+    margin-right: 54px;
+}
+.t-txt{
+    width: 1113px;
+    font-family: "Yandex Sans Display";
+    font-size: 64px;
+    color: white;
+}
+.br-nw{
+    margin-top: 130px;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 797px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.br-nw-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
