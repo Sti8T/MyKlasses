@@ -1,0 +1,29 @@
+.kartatleft {
+    background-color:#353535;
+    width: 547px;
+    height: 385px;
+    border-radius:40px;
+    margin-top: 60px;
+}
+.button{
+    margin-top:25px;
+    margin-left:27px;
+}
+.kartaimg{
+    margin-top:29px;
+    margin-left:27px;
+}
+.kartatmid{
+    margin-left:20px;
+    margin-right: 20px;
+    background-color:#353535;
+    width: 547px;
+    height: 385px;
+    border-radius:40px;
+    margin-top: 60px;
+}
+.karty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
