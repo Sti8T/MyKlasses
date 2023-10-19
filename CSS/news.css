@@ -1,0 +1,40 @@
+.board_nw {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 69px;
+}
+.karta{
+    background-color:#353535;
+    width: 830px;
+    height: 816px;
+    border-radius:40px;
+    margin: 0 20px 33px 0;
+}
+.karty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kartaimg {
+    margin: 53px 53px 43px;
+    width: 724px;
+    height: 333px;
+}
+.txt_nw{
+    color: #FFF;
+    text-align: center;
+    font-family: Yandex Sans Text, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 53px 53px 43px;
+}
+.button_nw{
+    margin: 53px 53px 38px;
+    width: 724px;
+    height: 57px;
+}
