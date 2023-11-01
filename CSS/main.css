@@ -2,6 +2,30 @@ body {
     display: block;
     margin: 0;
 }
+.light-theme {
+    background: #CDCDCD;
+    .board{background-color: white;}
+    .board-txt{color: black;}
+    .nw{color: black;}
+    .t-txt{color: black;}
+    .txt_nw{color: black;}
+    .board_nw{background-color: white;}
+    .kartatleft{background-color: white;}
+    .kartatmid{background-color: white;}
+    .karta{background-color: white;}
+}
+.dark-theme {
+    background: #1E1E1E;
+    .board{background-color: black;}
+    .board-txt{color: white;}
+    .nw{color: white;}
+    .t-txt{color: white;}
+    .board_nw{background-color: black;}
+    .txt_nw{color: white;}
+    .kartatleft{background-color:#353535;}
+    .kartatmid{background-color:#353535;}
+    .karta{background-color:#353535;}
+}
 @font-face {
     font-family: "Yandex Sans Text Regular";
     src: url('fonts/YandexSansText-Regular.woff2') format('woff2'),
@@ -21,7 +45,6 @@ a,p{
 .board{
     height: 60px;
     width: 100%;
-    background-color: black;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -30,7 +53,6 @@ a,p{
 .board-txt{
     margin-right: 232px;
     font-size: 20px;
-    color: white;
     text-decoration: none
 }
 
@@ -52,7 +74,6 @@ a,p{
     width: 1113px;
     font-family: "Yandex Sans Display", sans-serif;
     font-size: 42px;
-    color: white;
 }
 .br-nw{
     margin-top: 195px;
@@ -77,6 +98,5 @@ a,p{
 }
 .nw{
     font-family: "Yandex Sans Text Regular", sans-serif;
-    font-size: 21px;
-    color: white;
+    font-size: 21px
 }
